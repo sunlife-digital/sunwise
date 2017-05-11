@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="750px" height="600px" viewBox="0 0 750 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>14-masthead</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="14-masthead">
+            <g id="Group-12" transform="translate(2.000000, -100.000000)">
+                <circle id="Oval" fill="#1A3053" cx="535" cy="484" r="100"></circle>
+                <circle id="Oval" fill="#1A3053" cx="225" cy="289" r="50"></circle>
+                <circle id="Oval" fill="#1A3053" cx="534" cy="100" r="25"></circle>
+                <circle id="Oval" fill="#FFEE00" cx="110" cy="484" r="25"></circle>
+                <circle id="Oval" fill="#E3231D" cx="12.5" cy="676.5" r="12.5"></circle>
+                <circle id="Oval" fill="#1A3053" cx="224" cy="674" r="25"></circle>
+                <circle id="Oval" fill="#FFEE00" cx="435" cy="289" r="50"></circle>
+                <circle id="Oval" fill="#E3231D" cx="325" cy="484" r="50"></circle>
+                <circle id="Oval" fill="#FFEE00" cx="744" cy="484" r="50"></circle>
+                <path d="M745,200 C800.228475,200 845,155.228475 845,100 C845,44.771525 800.228475,0 745,0 C689.771525,0 645,44.771525 645,100 C645,155.228475 689.771525,200 745,200 Z" id="Oval" fill="#FFEE00"></path>
+                <circle id="Oval" fill="#E3231D" cx="645" cy="289" r="100"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

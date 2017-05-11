@@ -1,0 +1,309 @@
+﻿
+
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <title>Template</title>
+
+
+    <!--
+     ____           __        ___          _     _       _             ____  _         _       ____       _     _
+    / ___| _   _ _ _\ \      / (_)___  ___| |   (___   _(_)_ __   __ _/ ___|| |_ _   _| | ___ / ___|_   _(_) __| | ___
+    \___ \| | | | '_ \ \ /\ / /| / __|/ _ | |   | \ \ / | | '_ \ / _` \___ \| __| | | | |/ _ | |  _| | | | |/ _` |/ _ \
+     ___) | |_| | | | \ V  V / | \__ |  __| |___| |\ V /| | | | | (_|  ___) | |_| |_| | |  __| |_| | |_| | | (_| |  __/
+    |____/ \__,_|_| |_|\_/\_/  |_|___/\___|_____|_| \_/ |_|_| |_|\__, |____/ \__|\__, |_|\___ \____|\__,_|_|\__,_|\___|
+                                                                                     |___/
+                                                                                    -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- WEB FONTS -->
+    <link rel="preload" href="./fonts/sunstroke_body.woff2" as="font" type="font/woff2" crossorigin="" />
+    <link rel="preload" href="./fonts/sunstroke_headline_light.woff2" as="font" type="font/woff2" crossorigin="" />
+    <script src="./js/vendor/fontfaceobserver.min.js"></script>
+    <script>(function () { var body = new FontFaceObserver('Sunstroke Body'), headline = new FontFaceObserver('Sunstroke Headline'); if (sessionStorage.fontsLoaded) document.documentElement.classList.add('fonts-loaded'); Promise.all([body.load(), headline.load()]).then(function () { document.documentElement.classList.add('fonts-loaded'); sessionStorage.fontsLoaded = true; }); })(); </script>
+    <style>
+    	@font-face { font-family: "Sunstroke Body"; src: url('./fonts/sunstroke_body.woff2') format('woff2'), url('./fonts/sunstroke_body.woff') format('woff'), url('./fonts/sunstroke_body.ttf') format('ttf'), url('./fonts/sunstroke_body.eot') format('eot'); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    	@font-face { font-family: "Sunstroke Headline"; src: url('./fonts/sunstroke_headline_light.woff2') format('woff2'), url('./fonts/sunstroke_headline_light.woff') format('woff'), url('./fonts/sunstroke_headline_light.ttf') format('ttf'), url('./fonts/sunstroke_headline_light.eot') format('eot'); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    </style>
+
+    <!-- Meta data -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="apple-mobile-web-app-title" content="">
+
+    <link rel="canonical" href="">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.png" sizes="44x44">
+
+    <!--iOS -->
+    <link rel="apple-touch-icon" href="/assets/img/site/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/site/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/site/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/site/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- Facebook/Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:url" property="og:url" content="">
+    <meta name="twitter:title" property="og:title" content="">
+    <meta name="twitter:description" property="og:description" content="">
+    <meta name="twitter:image" property="og:image" content="">
+
+    <!-- Windows -->
+    <meta name="msapplication-TileColor" content="">
+    <meta name="msapplication-TileImage" content="/assets/img/site/apple-touch-icon-precomposed.png">
+
+    <script type="text/javascript" charset="utf-8">
+        var docElement = document.documentElement;
+        docElement.className = docElement.className.replace(/(^|\s)no-js(\s|$)/, ' js ');
+    </script>
+</head>
+
+<body id="www-sunlife-co-uk" class="sg-page--template">
+    <div class="primary-nav">
+        <div class="container">
+            <div class="primary-nav__upper">
+                <div class="primary-nav__support-text">
+                    Sales enquiries <span class="tel">0800 904 7674</span>
+                </div>
+
+                <div class="primary-nav__tertiary-links">
+                    <ul class="list--inline">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Existing Customers</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="primary-nav__logo">
+                <a href="#"><img src="./img/05-sunlife-logo-reverse.svg" alt="Sunlife" /></a>
+            </div>
+
+            <div class="menu-btn collapsed" data-toggle="collapse" data-target="#collapse-primary" aria-expanded="true">
+                <span class="menu-btn__text">MENU</span>
+                <button type="button" class="primary-nav__toggle">
+                    <span class="nav-mobile"></span>
+                </button>
+            </div>
+            <div class="primary-nav__container collapse" id="collapse-primary" aria-expanded="true">
+
+                <ul class="primary-nav__items">
+                    <li class="dropdown">
+                        <a href="#" class="primary-nav__top-level">Life cover</a>
+                        <div class="primary-nav__panel">
+                            <div class="primary-nav__column primary-nav__column--border-right">
+                                <ul class="list--plain">
+                                    <li class="primary-nav__item">
+                                        <a href="#" class="primary-nav__link">
+                                            <div class="primary-nav__details">
+                                                <span class="primary-nav__link-text">Life cover home</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="primary-nav__item">
+                                        <a href="#" class="primary-nav__link">
+                                            <img class="primary-nav__image" src="http://placehold.it/44x44">
+                                            <div class="primary-nav__details">
+                                                <span class="primary-nav__link-text">Over 50s life insurance</span>
+                                                <p class="primary-nav__description">Our Guaranteed Over 50 Plan is the most affordable on the market</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="primary-nav__item primary-nav__item--is-icon">
+                                        <a href="#" class="primary-nav__link">
+                                            <img class="primary-nav__image" src="http://placehold.it/44x44">
+                                            <div class="primary-nav__details">
+                                                <span class="primary-nav__link-text">Life insurance</span>
+                                                <p class="primary-nav__description">Support your loved ones with a cash sum if you die</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="primary-nav__item">
+                                        <a href="#" class="primary-nav__link">
+                                            <div class="primary-nav__details">
+                                                <span class="primary-nav__link-text">How to claim</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="primary-nav__column primary-nav__column--border-right">
+                                <ul class="list--plain">
+                                    <li class="primary-nav__item primary-nav__item--is-article">
+                                        <a href="#" class="primary-nav__link">
+                                            <img class="primary-nav__image" src="http://placehold.it/120x68" />
+                                            <div class="primary-nav__details">
+                                                <span class="primary-nav__link-text">5 reasons to consider over 50s life cover</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="primary-nav__item primary-nav__item--is-article">
+                                        <a href="#" class="primary-nav__link">
+                                            <img class="primary-nav__image" src="http://placehold.it/120x68" />
+                                            <div class="primary-nav__details">
+                                                <span class="primary-nav__link-text">Simple ways to deal with your funeral costs</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="primary-nav__item primary-nav__item--is-article">
+                                        <a href="#" class="primary-nav__link">
+                                            <img class="primary-nav__image" src="http://placehold.it/120x68" />
+                                            <div class="primary-nav__details">
+                                                <span class="primary-nav__link-text">10 reasons to take out life insurance</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="primary-nav__column">
+                                <ul class="list--plain">
+                                    <li class="primary-nav__item primary-nav__item--is-icon">
+                                        <a href="#" class="primary-nav__link">
+                                            <img class="primary-nav__image" src="http://placehold.it/44x44">
+                                            <div class="primary-nav__details">
+                                                <span class="primary-nav__link-text">Life insurance calculator</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="primary-nav__item primary-nav__item--is-icon">
+                                        <a href="#" class="primary-nav__link">
+                                            <img class="primary-nav__image" src="http://placehold.it/44x44">
+                                            <div class="primary-nav__details">
+                                                <span class="primary-nav__link-text">Browse our library</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown"><a href="#" class="primary-nav__top-level">Later life planning</a></li>
+                    <li class="dropdown"><a href="#" class="primary-nav__top-level">Savings &amp; investments</a></li>
+                    <li class="dropdown"><a href="#" class="primary-nav__top-level">Insurance</a></li>
+                    <li><a href="#" class="primary-nav__top-level">Blog</a></li>
+                </ul>
+                <div class="primary-nav__footer">
+                    <div class="container">
+                        <div class="primary-nav__support-text">
+                            Sales enquiries <span class="tel">0800 904 7674</span>
+                        </div>
+
+                        <div class="primary-nav__tertiary-links">
+                            <ul class="list--inline">
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Existing Customers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <header class="sg-header">
+      <button data-toggle="navigation"><span></span><span></span><span></span></button>
+        <h1 class="logo"><a href="index.html">SunWise</a></h1>
+        <span class="section" data-title="Toggle midnight styling">Template</span>
+        <span class="size"></span>
+    </header>
+    <div class="sg-content">
+
+        <main class="sg-content__primary" style="overflow: visible;">
+
+            <div class="sg-content__primary__inner">
+
+
+            </div><!-- content_primary -->
+
+        </main>
+
+        <div class="sg-content__secondary">
+            <div class="sg-content__secondary__inner">
+                <nav class="sg-navigation">
+                    <ul class="nav nav--intro">
+                        <li><a href="02-table-of-contents.html">Table of contents</a></li>
+                        <li><a href="03-getting-started.html">Getting started</a></li>
+                        <li><a href="04-design-principles.html">Design principles</a></li>
+                    </ul>
+
+                    <ul class="nav nav--primary">
+                        <li><a href="05-logo.html">Logos</a></li>
+
+                        <li class="nav__item--has-sub">
+                            <a href="javascript:void(0)">Colour &#8250;</a>
+                            <ul>
+                                <li><a href="06-colour-brand.html">Branding colours</a></li>
+                                <li><a href="07-colour-supporting.html">Supporting colours</a></li>
+                                <li><a href="08-colour-messaging.html">Messaging colours</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item--has-sub">
+                            <a href="javascript:void(0)">Typography &#8250;</a>
+                            <ul>
+                                <li><a href="09-typeface.html">Typeface</a></li>
+                                <li><a href="10-body-text.html">Body text</a></li>
+                                <li><a href="11-quotes.html">Quotes</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="12-buttons.html">Buttons</a></li>
+                        <li><a href="13-bubbles.html">Bubbles</a></li>
+                        <li><a href="14-roundels.html">Roundels</a></li>
+                        <li><a href="15-icons.html">Icons</a></li>
+                        <li><a href="16-illustrations.html">Illustrations</a></li>
+                        <li><a href="17-media.html">Media</a></li>
+                        <li><a href="18-jumbotron.html">Jumbotrons</a></li>
+                        <li><a href="19-template.html">Templates</a></li>
+                        <li><a href="20-forms.html">Forms</a></li>
+                        <li><a href="21-tables.html">Tables</a></li>
+                        <li><a href="22-panels.html">Panels</a></li>
+                        <li><a href="23-interactive.html">Interactive</a></li>
+                        <li><a href="24-small-navigation.html">Small navigation</a></li>
+                        <li><a href="25-colour-accessibility.html">Colour accessibility</a></li>
+                        <li><a href="26-advertising.html">Banner advertising</a></li>
+                    </ul>
+                </nav><footer class="sg-footer">
+                    <p>
+                        <a href="https://www.github.com" class="icon icon--github">GitHub</a>
+                        <a href="mailto:sunwise@sunlife.co.uk" class="icon icon--email">Email</a>
+                    </p>
+
+                </footer>
+            </div><!-- sg-content__secondary__inner -->
+        </div><!-- sg-content__secondary -->
+    </div><!-- content -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.primary-nav li.dropdown').on('click', function () {
+                $(this).toggleClass('is-open');
+                $('.primary-nav__items').toggleClass('panel-open');
+            });
+        });
+    </script>
+
+</body>
+</html>
