@@ -7,16 +7,6 @@
 <title>Banner advertising</title>
 
 
-<!--
- ____           __        ___          _     _       _             ____  _         _       ____       _     _
-/ ___| _   _ _ _\ \      / (_)___  ___| |   (___   _(_)_ __   __ _/ ___|| |_ _   _| | ___ / ___|_   _(_) __| | ___
-\___ \| | | | '_ \ \ /\ / /| / __|/ _ | |   | \ \ / | | '_ \ / _` \___ \| __| | | | |/ _ | |  _| | | | |/ _` |/ _ \
- ___) | |_| | | | \ V  V / | \__ |  __| |___| |\ V /| | | | | (_|  ___) | |_| |_| | |  __| |_| | |_| | | (_| |  __/
-|____/ \__,_|_| |_|\_/\_/  |_|___/\___|_____|_| \_/ |_|_| |_|\__, |____/ \__|\__, |_|\___ \____|\__,_|_|\__,_|\___|
-                                                             |___/
--->
-
-
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,7 +30,7 @@
 <link rel="canonical" href="">
 
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
 
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
@@ -67,13 +57,20 @@
 <script type="text/javascript" charset="utf-8">
 	var docElement = document.documentElement;
 	docElement.className = docElement.className.replace(/(^|\s)no-js(\s|$)/, ' js ');
-</script></head>
+</script>
+<style>
+.sg-content__primary__inner p {
+margin-bottom : 0; }
 
-<body id="www-sunlife-co-uk" class="sg-page--template">
+</style>
+
+</head>
+
+<body id="www-sunlife-co-uk" class="sg-page--grid">
 
 <header class="sg-header">
 <h1 class="logo"><a href="index.html">SunWise</a></h1>
-<span class="section" data-title="Toggle midnight styling">Banner advertising</span>
+<span class="section" data-title="Toggle midnight styling">Grid layout</span>
 <span class="size"></span>
 </header>
 <div class="sg-content">
@@ -82,104 +79,53 @@
 
 <div class="sg-content__primary__inner">
 
-
-
-
-
-
-
-
-<div class="row">
-<div class="col-5">
-
-<figure>
-<img src="./img/26-online-ad-banner-white@2x.png" alt="">
-<figcaption>
-White <b>728 x 90px</b> advertising banner with four columns
-</figcaption>
-</figure>
-
-<figure>
-<img src="./img/26-online-ad-banner-sky@2x.png" alt="">
-<figcaption>
-Sky <b>728 x 90px</b> advertising banner with four columns
-</figcaption>
-</figure>
-
-</div><!-- col -->
-</div><!-- row -->
-
-
-
-
-
-
-
-
+<h2 class="h5">12 column grid</h2>
 
 <div class="row">
 
-<div class="col-2">
-
-<figure>
-<img src="./img/26-online-ad-white-one@2x.png" alt="">
-<figcaption>
-White <b>300 x 250px</b> advertising
-</figcaption>
-</figure>
-
-</div><!-- col -->
-
-<div class="col-2 col-offset-1">
-
-<figure>
-<img src="./img/26-online-ad-sky-one@2x.png" alt="">
-<figcaption>
-Sky <b>300 x 250px</b> advertising
-</figcaption>
-</figure>
-
+<div class="col-sm-12">
+<p class="tertiary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium praesentium nihil cum, iste vitae laudantium blanditiis corporis aut quas tenetur consectetur, labore architecto nam ipsam voluptatem ut odio. Asperiores, dolores.</p>
 </div><!-- col -->
 
 </div><!-- row -->
 
 
-
-
-
-
-
-
+<h2 class="h5">6 column grid</h2>
 
 <div class="row">
-
-<div class="col-2">
-
-<figure>
-<img src="./img/26-online-ad-white-two@2x.png" alt="">
-<figcaption>
-White <b>300 x 250px</b> advertising
-</figcaption>
-</figure>
-
+<div class="col-sm-6">
+<p class="secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt porro, qui aperiam quod, impedit molestias minima dolorum officia soluta non error iste, eius quisquam laudantium nisi amet, doloremque placeat. Voluptates?</p>
 </div><!-- col -->
 
-<div class="col-2 col-offset-1">
-
-<figure>
-<img src="./img/26-online-ad-sky-two@2x.png" alt="">
-<figcaption>
-Sky <b>300 x 250px</b> advertising
-</figcaption>
-</figure>
-
+<div class="col-sm-6">
+<p class="secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis expedita quam quaerat fuga voluptatibus. Repellendus illum eum debitis odit modi neque distinctio harum facilis eius, repellat. In, at. Culpa, aspernatur.</p>
 </div><!-- col -->
 
 </div><!-- row -->
 
+<h2 class="h5">Two column grid</h2>
 
+<div class="row">
+<div class="col-sm-6">
+<p>The Guaranteed Over 50 Plan is a simple and affordable way to leave a cash sum as a gift for your loved ones, or to help towards funeral costs.</p>
+</div><!-- col -->
 
+<div class="col-sm-6">
+<p>The Guaranteed Over 50 Plan is a simple and affordable way to leave a cash sum as a gift for your loved ones, or to help towards funeral costs.</p>
+</div><!-- col -->
+</div><!-- row -->
 
+<h2 class="h5">4 column grid with 1 column offset</h2>
+
+<div class="row">
+<div class="col-sm-4">
+<p class="secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, esse quibusdam? Quibusdam ad debitis tempore eos, quos, delectus ratione quia cum vel suscipit voluptas porro nihil maxime ducimus. Expedita, iure.</p>
+</div><!-- col -->
+
+<div class="col-sm-4 col-sm-offset-1">
+<p class="secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloremque similique nostrum soluta ullam ad, quibusdam hic odio sit, adipisci quo dolorum perspiciatis! Tempore eligendi unde asperiores ut voluptatem blanditiis.</p>
+</div><!-- col -->
+</div><!-- row -->
 
 
 
@@ -229,7 +175,7 @@ Sky <b>300 x 250px</b> advertising
 <li><a href="15-icons.html">Icons</a></li>
 <li><a href="16-illustrations.html">Illustrations</a></li>
 <li><a href="17-media.html">Media</a></li>
-<li><a href="18-jumbotron.html">Jumbotrons</a></li>
+<li><a href="18-mastheads.html">Mastheads</a></li>
 <li><a href="19-template.html">Templates</a></li>
 <li><a href="20-forms.html">Forms</a></li>
 <li><a href="21-tables.html">Tables</a></li>
@@ -237,20 +183,17 @@ Sky <b>300 x 250px</b> advertising
 <li><a href="23-interactive.html">Interactive</a></li>
 <li><a href="24-small-navigation.html">Small navigation</a></li>
 <li><a href="25-colour-accessibility.html">Colour accessibility</a></li>
-<li><a href="26-advertising.html">Banner advertising</a></li>
+<li><a href="26-grid.html">Grid</a></li>
 </ul>
-</nav><footer class="sg-footer">
-<p><a href="https://www.github.com" class="icon icon--github">GitHub</a>
-<a href="mailto:sunwise@sunlife.co.uk" class="icon icon--email">Email</a></p>
-<small><a href="credits.html">Credits</a></small>
-</footer></div><!-- sg-content__secondary__inner -->
+</nav></div><!-- sg-content__secondary__inner -->
 </div><!-- sg-content__secondary -->
 </div><!-- content -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/min/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap/util.js"></script>
+<script src="js/bootstrap/carousel.js"></script>
 <scriptsrc="js/main.js"></script>
-
 
 </body>
 </html>
