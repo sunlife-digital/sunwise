@@ -3936,7 +3936,7 @@ html.fonts-loaded .expander .expander-trigger {
   display: inline-block;
   width: 22px;
   height: 22px;
-  content: url("sunwise/img/expander-icon-up.svg");
+  content: url("../img/expander-icon-up.svg");
   margin-right: 1vw;
 }
 
@@ -3949,7 +3949,7 @@ html.fonts-loaded .expander .expander-trigger {
   display: inline-block;
   width: 22px;
   height: 22px;
-  content: url("sunwise/img/expander-icon-down.svg");
+  content: url("../img/expander-icon-down.svg");
 }
 
 .expander .expander-hidden + .expander-content {
